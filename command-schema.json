@@ -1,0 +1,39 @@
+{
+  "id": 1001,
+  "responseTopic": "minecraft.response",
+  "responseWebhook": "_",
+  "commands": [
+      {
+        "sourceId": 0,
+        "command": "say hello"
+      },
+      {
+        "sourceId": 1,
+        "command": "mc.say.hello"
+      },
+      {
+        "sourceId": 0,
+        "command": "fill ~ ~ ~ ~5 ~5 ~5 minecraft:blue_wool"
+      },
+      {
+        "sourceId": 2,
+        "command": "mc.tp.R.to.T"
+      }
+    ],
+  "sources": [
+    {
+      "id": 0,
+      "type": "local"
+    },
+    {
+      "id": 1,
+      "type": "gist",
+      "baseUri": "https://gist.githubusercontent.com/jforge/5061ba98b41eb6e5ae3b755d1baf8187/raw"
+    },
+    {
+      "id": 2,
+      "type": "gist",
+      "baseUri": "https://gist.githubusercontent.com/any/27c1ba98b41eb6e5ae3b755d1a5b68d4/raw"
+    }
+  ]
+}
